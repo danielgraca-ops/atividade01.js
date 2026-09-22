@@ -7,4 +7,4 @@ console.log (`
 === FICHA DO ITEM ===
 nomeITEM: ${nomeIntem}  
 preço: R${precoItem}
-raridade; ${raridadeItem} unidades `):
+raridade; ${raridadeItem} unidades `)
