@@ -21,3 +21,15 @@ if (precoItem < 0) {
 const emDestaque = precoItem > 500 ? true : false:
 
 console.log('Em destaque: $ {emDestaque}`)
+
+//Cadastro em lote 
+ for (let i = 1; i<= 5; i ++) {
+    console.log(`item ${i} 
+cadastro com sucesso!`);
+ if (i % 2 === 0 ) {
+    console.log("Este é um item de ídice par.");
+
+     }
+ }
+
+ 
