@@ -42,4 +42,15 @@ cadastro com sucesso!`);
  }
 console.log("estoque esgotado!");
 
+//catálago de itens
+const catalogo = [
+    "Espadaa das Sombras",
+    "Asas Douraradas",
+    "Capacete Neon",
+    "Dragão ",
+    "Skin Cyberpunk"
+];
+for (const item of catalago) {
+     console.log(`Item: ${item}`);
+}
  
