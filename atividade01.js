@@ -32,4 +32,14 @@ cadastro com sucesso!`);
      }
  }
 
+ // controle de estoque 
+ let estoqueVenda = estoqueItem;
+
+ while(estoqueVenda > 0){
+    console.log( ` Venda realizada! 
+    Estoque restante: ${estoqueVenda - 1}`);
+        estoqueVenda--;
+ }
+console.log("estoque esgotado!");
+
  
