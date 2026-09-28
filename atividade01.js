@@ -1,20 +1,29 @@
-const nomeITEM = "Epadada das sombras";
-const precoItem = 250
-const raridadeItem = "Raro"
+const nomeItem=" espada das Sombras";
+const precoItem = 250;
+const raridadeItem = "Raro";
 const estoqueItem = 12;
 
 console.log (`
 === FICHA DO ITEM ===
-nomeITEM: ${nomeIntem}  
+nomeITEM: ${nomeItem}  
 preço: R${precoItem}
 
 raridade; ${raridadeItem} unidades 
 
-//validação do preço
+//regra de negócio
 if (precoItem < 0) {
-    console.log("Classificação: Comum")
- } else if (precoItem >= 100 && precoItem < 500) {
-    console.log("Classificação: Lendario"):
+    console.log("erro o preço não pode ser negativo");
+
+}if (precoItem < 100){
+   console.log("classificação comum");    
+
+}else if (precoItem >= 100 && precoItem < 500 ){
+  console.log("classificação: raro"); 
+  
+ } else if (precoItem >= 500 ) {
+    console.log("Classificação: Lendario");
+}
+else{console.log("erro: o preço é inválido");
 }
 
 //Operador ternário
@@ -37,20 +46,20 @@ cadastro com sucesso!`);
 
  while(estoqueVenda > 0){
     console.log( ` Venda realizada! 
-    Estoque restante: ${estoqueVenda - 1}`);
+    Estoque restante:  ${estoqueVenda - 1  }`);
         estoqueVenda--;
  }
 console.log("estoque esgotado!");
 
 //catálago de itens
 const catalogo = [
-    "Espadaa das Sombras",
+    "Espada das Sombras",
     "Asas Douraradas",
     "Capacete Neon",
     "Dragão ",
     "Skin Cyberpunk"
 ];
-for (const item of catalago) {
+for (const item of catalogo){
      console.log(`Item: ${item}`);
 }
  
