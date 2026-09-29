@@ -5,10 +5,10 @@ const estoqueItem = 12;
 
 console.log (`
 === FICHA DO ITEM ===
-nomeITEM: ${nomeItem}  
-preço: R${precoItem}
+nomeITEM: ${"espada das sombras"}  
+preço: R${250}
 
-raridade; ${raridadeItem} unidades 
+raridade; ${raridadeItem} unidades = 12
 
 //regra de negócio
 if (precoItem < 0) {
